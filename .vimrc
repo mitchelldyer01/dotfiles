@@ -8,7 +8,7 @@ set incsearch
 set smartcase
 
 set list
-set listchars=eol:$,tab:␉·,trail:␠,nbsp:⎵
+set listchars=eol:$,tab:->,trail:|,nbsp:⎵
 set tabstop=4
 
 set complete-=i
