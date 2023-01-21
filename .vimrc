@@ -53,4 +53,7 @@ set spell
 set wildignore+=.pyc,.swp
 
 autocmd FileType yaml,tf,hcl setlocal ts=2 sts=2 sw=2 expandtab
+
 filetype plugin indent on
+
+au BufWritePre *.rs :let g:rustfmt_autosave = 1
