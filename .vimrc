@@ -52,7 +52,7 @@ set shell
 set spell
 set wildignore+=.pyc,.swp
 
-autocmd FileType yaml,tf,hcl setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType js,ts,yaml,tf,hcl setlocal ts=2 sts=2 sw=2 expandtab
 autocmd Filetype rust :let g:rustfmt_autosave = 1
 
 let g:ale_completion_enabled = 1
