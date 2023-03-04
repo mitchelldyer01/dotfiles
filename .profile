@@ -139,3 +139,4 @@ __bash_prompt() {
 }
 __bash_prompt
 export PROMPT_DIRTRIM=4
+. "$HOME/.cargo/env"

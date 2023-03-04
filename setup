@@ -1,6 +1,0 @@
-#!/bin/bash
-
-SOURCE_DIR=${PWD}
-
-ln -sf ${SOURCE_DIR}/.profile ${HOME}/.profile
-ln -sf ${SOURCE_DIR}/.vimrc ${HOME}/.vimrc
