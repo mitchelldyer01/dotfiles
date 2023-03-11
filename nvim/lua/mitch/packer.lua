@@ -6,6 +6,7 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/playground')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
+  use('savq/melange-nvim')
 
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
