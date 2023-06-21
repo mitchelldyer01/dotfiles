@@ -9,6 +9,11 @@ return require('packer').startup(function(use)
   use('savq/melange-nvim')
 
   use {
+    'glacambre/firenvim',
+    run = function() vim.fn['firenvim#install'](0) end 
+  }
+
+  use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
